@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <TextView
+         android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:background="@color/colorYellow"
+        android:paddingTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:text="Фильтер" />
+
+<ImageView
+    android:id="@+id/close"
+    android:layout_width="60dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorYellow"
+    android:src="@drawable/ic_close"
+    android:layout_height="60dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="250dp"
+            android:textSize="20dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:text="Цена по убыванию" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:text="Цена по возрастанию" />
+
+        <RadioButton
+            android:layout_width="60dp"
+
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp"
+            android:text="Менее вмеестительные"
+            android:paddingTop="10dp"/>
+
+        <RadioButton
+            android:layout_width="60dp"
+
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:text="Более вмеестительные" />
+
+        <RadioButton
+            android:layout_width="60dp"
+
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:text="Кондионер" />
+
+     <Switch
+         android:layout_width="60dp"
+         android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/prin"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:paddingRight="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/cricle_yellow"
+            android:text="ПРИМЕНИТЬ"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/otmen"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginEnd="20dp"
+            android:paddingEnd="20dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:background="@drawable/cricle_black"
+            android:text="ОТМЕНА"
+            />
+
+    </LinearLayout>
+</LinearLayout>
